@@ -1,0 +1,16 @@
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/RiderMVC.Web.dll.mdb
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/RiderMVC.Web.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/obj/Debug/RiderMVC.Web.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/obj/Debug/RiderMVC.Web.dll.mdb
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/Microsoft.Web.Infrastructure.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/Newtonsoft.Json.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/System.Net.Http.Formatting.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/System.Web.Http.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/System.Web.Http.WebHost.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/System.Web.Helpers.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/System.Web.Mvc.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/System.Web.Razor.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/System.Web.WebPages.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/System.Web.WebPages.Deployment.dll
+/Volumes/Data/GitHub/RiderMVC/RiderMVC.Web/bin/System.Web.WebPages.Razor.dll
