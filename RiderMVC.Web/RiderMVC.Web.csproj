@@ -125,6 +125,12 @@
     <Folder Include="Content" />
     <Folder Include="Models" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RiderMVC.Model\RiderMVC.Model.csproj">
+      <Project>{D6EEC103-7344-41CD-858B-C13709EC8E88}</Project>
+      <Name>RiderMVC.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
