@@ -1,4 +1,4 @@
 packages
 .idea
-bin
+bin/
 obj
