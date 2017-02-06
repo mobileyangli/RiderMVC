@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
@@ -80,37 +83,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\site.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\jquery-1.9.1-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.map" />
-    <Content Include="Scripts\site.js" />
     <Content Include="Views\Account\Index.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
@@ -122,12 +103,15 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content" />
     <Folder Include="Models" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RiderMVC.DAL\RiderMVC.DAL.csproj">
+      <Project>{102E0788-E535-4FB1-8AC8-ABF05DCD1D4E}</Project>
+      <Name>RiderMVC.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RiderMVC.Model\RiderMVC.Model.csproj">
-      <Project>{D6EEC103-7344-41CD-858B-C13709EC8E88}</Project>
+      <Project>{D3A7E7DB-E023-4742-BF5C-1A0088DC7E57}</Project>
       <Name>RiderMVC.Model</Name>
     </ProjectReference>
   </ItemGroup>

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Ajax;
+using RiderMVC.DAL;
+using RiderMVC.Model;
 
 namespace RiderMVC.Web.Controllers
 {
@@ -11,6 +13,10 @@ namespace RiderMVC.Web.Controllers
     {
         public ActionResult Index()
         {
+            var studentDao = new StudentDao();
+            var stud = new Student() {Name = "link"};
+            studentDao.AddStudent(stud);
+
             return View();
         }
 
