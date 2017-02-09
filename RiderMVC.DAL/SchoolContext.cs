@@ -8,11 +8,8 @@ namespace RiderMVC.DAL
 {
     public class SchoolContext : DbContext
     {
-        public SchoolContext() : base()
+        public SchoolContext() : base("name=RiderMVCContext")
         {
-            Database.Connection.ConnectionString = ConfigurationManager.ConnectionStrings["RiderMVCContext"]
-                .ConnectionString;
-            Database.SetInitializer<SchoolContext>(null);
         }
 
         public DbSet<Student> Students { get; set; }
