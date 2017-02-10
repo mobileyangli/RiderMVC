@@ -14,7 +14,7 @@ namespace RiderMVC.DAL
                     ctx.Students.Add(student);
                     ctx.SaveChanges();
 
-                    return student.ID;
+                    return student.StudentID;
                 }
                 catch (Exception e)
                 {
